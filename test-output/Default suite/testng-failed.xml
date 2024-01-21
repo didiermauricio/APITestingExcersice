@@ -3,12 +3,12 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="Users.UserTests">
+      <class name="Pets.PetsTests">
         <methods>
-          <include name="Search_An_ExistentUser"/>
+          <include name="Find_Pets_By_Status"/>
           <include name="Setup"/>
         </methods>
-      </class> <!-- Users.UserTests -->
+      </class> <!-- Pets.PetsTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

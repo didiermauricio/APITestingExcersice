@@ -47,23 +47,7 @@
 <groupId>org.javatuples</groupId>  
 <artifactId>javatuples</artifactId>  
 <version>1.2</version>  
-</dependency>   
-<!--Allure Reporting Dependency-->   
-  <dependency>
-     <groupId>io.qameta.allure</groupId>
-     <artifactId>allure-rest-assured</artifactId>
-     <version>2.24.0</version>
-  </dependency>
-  
-  <!-- Allure TestNG Dependency -->
-       <dependency>
-           <groupId>io.qameta.allure</groupId>
-           <artifactId>allure-testng</artifactId>
-           <version>2.24.0</version>
-       </dependency>
-
-
-	  
+</dependency>   	  
   </dependencies>
   
 </project>
