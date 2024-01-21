@@ -20,8 +20,10 @@ public class JsonFunctions {
 		for(int i=0; i<= jsonResponse1.size()-1;i++) {
 			if(jsonResponse1!=null && jsonResponse1!=null && (jsonResponse1.size()==jsonResponse2.size()))
 			{
-				pair =  Pair.of(String.valueOf(jsonResponse1.get(i)),String.valueOf(jsonResponse2.get(i).toLowerCase()));	
+				if(String.valueOf(jsonResponse2.get(i).toLowerCase()) !=null) {
+				pair =  Pair.of(String.valueOf(jsonResponse1.get(i)),String.valueOf(jsonResponse2.get(i)).toLowerCase());	
 				finalList.add(pair);			
+				}
 			}
 		}
 		return finalList;
