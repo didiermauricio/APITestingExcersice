@@ -30,12 +30,7 @@ public class PetsTests {
 		List<org.apache.commons.lang3.tuple.Pair<String, String>> list =  json.GetJsonListByTuple(response, "id", "name");
 		tupleActions = new PetsTuple_ID_Name_Structure(list);
 		tupleActions.ValidatePetNames();
-	    
-	        
+	    	        
 	}
-	
-
-	
-
 	
 }
