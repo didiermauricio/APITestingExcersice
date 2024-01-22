@@ -24,7 +24,7 @@ public class PetsTests {
 	@Test(priority = 1)
 	public void Find_Pets_By_Status(){
 		Response response = PetsActions.RetrievePetsByStatus("sold");
-		System.out.println(response.then().log().all(););
+		System.out.println(response.then().log().all());
 		response.then().log().all();					
 		List<org.apache.commons.lang3.tuple.Pair<String, String>> list =  json.GetJsonListByTuple(response, "id", "name");
 		tupleActions = new PetsTuple_ID_Name_Structure(list);
