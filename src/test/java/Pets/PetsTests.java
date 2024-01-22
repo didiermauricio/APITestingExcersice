@@ -2,14 +2,12 @@ package Pets;
 
 import java.util.List;
 
-import org.javatuples.Pair;
-import org.testng.Assert;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import Commons.JsonFunctions;
 import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
+
 
 
 public class PetsTests {

@@ -4,9 +4,6 @@ package Pets;
 import  static io.restassured.RestAssured.given;
 
 import Commons.PetsUrls;
-import Commons.UserUrls;
-import data.userModel;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class PetsActions {
