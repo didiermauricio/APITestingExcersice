@@ -6,3 +6,5 @@ Summary:
 - Jackson databind
 - Javatuples
 
+Example of ussage of ResstAssured framework testing against petShop API
+- Applying a patern to take it maintainable and readable, splited in classes and modules.
